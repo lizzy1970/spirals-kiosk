@@ -1,0 +1,4 @@
+name Spirals
+
+debug false
+CefConfig { Kiosk:true }
