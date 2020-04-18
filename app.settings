@@ -1,4 +1,4 @@
 name Spirals
 
-debug true
+debug false
 CefConfig { Kiosk:true }
