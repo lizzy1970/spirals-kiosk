@@ -1,5 +1,7 @@
 <h3>App & Environment Info</h3>
 
+ARGV: {{ARGV |> dump}}
+
 <pre>
 ```code
 `envProcessorCount: ${envProcessorCount}`
@@ -22,7 +24,7 @@ envCommandLineArgs |> dump |> raw
 `envLogicalDrives:`
 envLogicalDrives |> dump |> raw
 `envPathSeparator: ${envPathSeparator}`
-`envVariables: ` 
-envVariables |> dump |> raw
+* `envVariables: ` *
+* envVariables |> dump |> raw *
 ```
 </pre>
