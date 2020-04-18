@@ -1,0 +1,28 @@
+<h3>App & Environment Info</h3>
+
+<pre>
+```code
+`envProcessorCount: ${envProcessorCount}`
+`envTickCount: ${envTickCount}`
+`envServerUserAgent: ${envServerUserAgent}`
+`envServiceStackVersion: ${envServiceStackVersion}`
+`envCurrentDirectory: ${envCurrentDirectory}`
+`isWin: ${isWin}`
+`envIsLinux: ${envIsLinux}`
+`envIsOSX: ${envIsOSX}`
+`envCommandLine: ${envCommandLine}`
+`envCommandLineArgs:`
+envCommandLineArgs |> dump |> raw
+`envMachineName: ${envMachineName}`
+`envSystemDirectory: ${envSystemDirectory}`
+`envUserDomainName: ${envUserDomainName}`
+`envUserName: ${envUserName}`
+`envIs64BitOperatingSystem: ${envIs64BitOperatingSystem}`
+`envIs64BitProcess: ${envIs64BitProcess}`
+`envLogicalDrives:`
+envLogicalDrives |> dump |> raw
+`envPathSeparator: ${envPathSeparator}`
+`envVariables: ` 
+envVariables |> dump |> raw
+```
+</pre>
